@@ -6,7 +6,7 @@ A full-stack URL shortening application built with **React, Node.js, Express, an
 
 ### Frontend
 
-https://url-shortner-sdjwucv9i-vercel-86f7.vercel.app/
+https://url-shortner-two-alpha.vercel.app/
 
 ### Backend API
 
@@ -169,6 +169,6 @@ VITE_API_URL=https://url-shortener-backend-xo9i.onrender.com
 
 ```env
 APP_URL=https://url-shortener-backend-xo9i.onrender.com/
-FRONTEND_URL=https://url-shortner-sdjwucv9i-vercel-86f7.vercel.app
+FRONTEND_URL=https://url-shortner-two-alpha.vercel.app/
 ```
 
