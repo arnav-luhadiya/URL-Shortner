@@ -6,15 +6,15 @@ A full-stack URL shortening application built with **React, Node.js, Express, an
 
 ### Frontend
 
-https://url-shortner-kappa-one.vercel.app
+https://url-shortner-sdjwucv9i-vercel-86f7.vercel.app/
 
 ### Backend API
 
-https://url-shortner-c1um.onrender.com
+https://url-shortener-backend-xo9i.onrender.com/
 
 ### GitHub Repository
 
-https://github.com/rajatdagar2005/URL-Shortner
+https://github.com/arnav-luhadiya/URL-Shortner
 
 ---
 
@@ -86,7 +86,7 @@ URL-Shortner/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/rajatdagar2005/URL-Shortner.git
+https://github.com/arnav-luhadiya/URL-Shortner.git
 cd URL-Shortner
 ```
 
@@ -162,26 +162,13 @@ GET  /:shortUrl
 ### Frontend (Vercel)
 
 ```env
-VITE_API_URL=https://url-shortner-c1um.onrender.com
+VITE_API_URL=https://url-shortener-backend-xo9i.onrender.com
 ```
 
 ### Backend (Render)
 
 ```env
-APP_URL=https://url-shortner-c1um.onrender.com/
-FRONTEND_URL=https://url-shortner-kappa-one.vercel.app
+APP_URL=https://url-shortener-backend-xo9i.onrender.com/
+FRONTEND_URL=https://url-shortner-sdjwucv9i-vercel-86f7.vercel.app
 ```
 
----
-
-## 👨‍💻 Author
-
-**Rajat Dagar**
-
-GitHub:
-https://github.com/rajatdagar2005
----
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a star on GitHub.
