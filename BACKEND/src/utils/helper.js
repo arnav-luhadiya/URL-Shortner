@@ -16,3 +16,12 @@ export const verifyToken = (token) =>{
     console.log(decoded.id)
     return decoded.id
 }
+
+export function formatUrl(url) {
+  if (!url) return url;
+  let trimmedUrl = url.trim();
+  if (!/^https?:\/\//i.test(trimmedUrl)) {
+    trimmedUrl = `https://${trimmedUrl}`;
+  }
+  return trimmedUrl;
+}
