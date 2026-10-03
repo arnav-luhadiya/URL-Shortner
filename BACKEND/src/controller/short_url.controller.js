@@ -1,14 +1,16 @@
 import { getShortUrl } from "../dao/short_url.js"
 import { createShortUrlWithoutUser, createShortUrlWithUser } from "../services/short_url.service.js"
 import wrapAsync from "../utils/tryCatchWrapper.js"
+import { formatUrl } from "../utils/helper.js"
 
 export const createShortUrl = wrapAsync(async (req,res)=>{
     const data = req.body
+    const formattedUrl = formatUrl(data.url)
     let shortUrl
     if(req.user){
-        shortUrl = await createShortUrlWithUser(data.url,req.user._id,data.slug)
+        shortUrl = await createShortUrlWithUser(formattedUrl,req.user._id,data.slug)
     }else{  
-        shortUrl = await createShortUrlWithoutUser(data.url)
+        shortUrl = await createShortUrlWithoutUser(formattedUrl)
     }
     res.status(200).json({shortUrl : process.env.APP_URL + shortUrl})
 })
